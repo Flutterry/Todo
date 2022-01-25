@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
       navigatorObservers: [BotToastNavigatorObserver()],
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
-      locale: context.locale,
+      locale: const Locale('en'),
       theme: ThemeData(
         colorScheme: const ColorScheme.light().copyWith(primary: pink),
         pageTransitionsTheme: const PageTransitionsTheme(
